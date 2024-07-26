@@ -1,0 +1,17 @@
+.site-header {
+    
+}
+.header {
+}
+.header-mode-btn{
+    width: 45px;
+    height: 45px;
+    background-color: transparent;
+    border: 2px solid $black-clr;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    color: $black-clr;
+}

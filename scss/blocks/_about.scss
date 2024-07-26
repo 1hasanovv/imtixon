@@ -1,0 +1,40 @@
+.about-section {
+    padding-bottom: 120px;
+}
+
+.about {
+    background-image: url(../../images/img6.png) , url(../../images/img5.png);
+    background-repeat: no-repeat;
+    height: 80vh;
+}
+.about >h2{
+   padding: 178px 90px 0 ;
+   width: 362px;
+   @include textStyle($MB:0px, $FS:48px, $FW:600, $CLR:$white-clr, $LH:60px, $CASE:none);
+
+}
+.about-list {
+    margin-left:120px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 62px;
+}
+.about-item {
+    display: flex;
+    align-items: center;
+    gap: 23px;
+    width: 394px;
+}
+.about-item +.about-item{
+    display: flex;
+    justify-content: space-between;
+}
+.about-title-again{
+    @include textStyle($MB:16px, $FS:20px, $FW:600, $CLR:$title-clr, $LH:27px, $CASE:none);   
+}
+.about-wrapper{
+    padding-top: 72px;
+}
+.about-item-inner-wrapper >p{
+    @include textStyle($MB:0px, $FS:16px, $FW:400, $CLR:$text-clr, $LH:24px, $CASE:none);   
+}

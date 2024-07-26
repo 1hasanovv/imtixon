@@ -1,0 +1,27 @@
+.hero-section {
+    padding: 80px 0;
+}
+
+.hero {
+    @include Display($items:center, $space:space-between, $gap:0px)
+}
+.hero-wrapper{
+    width: 507px;
+}
+.hero-wrapper >h1{
+    padding-top: 81px;
+    @include textStyle($MB:40px, $FS:52px, $FW:600, $CLR:$title-clr, $LH:65px, $CASE:capitalize);
+
+}
+.hero-wrapper >p{
+    @include textStyle($MB:40px, $FS:16px, $FW:400, $CLR:$text-clr, $LH:24px, $CASE:none);
+}
+.hero-link{
+    @include textStyle($MB:0px, $FS:16px, $FW:700, $CLR:$title-clr, $LH:24px, $CASE:capitalize);
+    border-bottom: 3px solid #FFCE50;
+    &:hover{
+        color: #FFCE50;
+        border-color: $title-clr;
+        transition: 0.3s linear;
+    }
+}

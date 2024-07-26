@@ -1,0 +1,51 @@
+.Offering-section {
+    padding-bottom: 67px;
+}
+.Offering-list {
+    border-radius: 20px;
+    border: 1px solid rgb(221, 219, 219);
+    background-color: #FFFFFF;
+    box-shadow: 0px 4px 20px 0px #00000026;
+    @include Display($items:center, $space:center, $gap:169px);
+    flex-wrap: wrap;
+    
+}
+.Offering-item {
+    width: 226px;
+    padding: 43px 0;
+    display: inline-block;
+    text-align: left;
+    border-left: 2px solid rgb(235, 235, 235, 0.8);
+}
+.remove-border-left {
+    border-left: none;
+}
+.Offering-content-wrapper{
+    margin-bottom: 24px;
+    width: 92px;
+    height: 92px;
+    border-radius: 50%;
+    background-color: #E9E9EC;
+}
+
+.Offering-title {
+    @include textStyle($MB:16px, $FS:20px, $FW:600, $CLR:$title-clr, $LH:27px, $CASE:none);
+
+}
+.Offering-item-text {
+    @include textStyle($MB:0px, $FS:16px, $FW:700, $CLR:$text-clr, $LH:24px, $CASE:none);
+
+}
+
+.Offering-computer-img {
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.Offering-indication-img {
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.Offering-application-img {
+    margin-left: 10px;
+    margin-top: 28px;
+}
